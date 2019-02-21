@@ -1,5 +1,6 @@
 baselines
 setUpDependencies: spec
 	spec
-		baseline: 'PetitParser2'
-		with: [ spec repository: 'github://kursjan/petitparser2' ]
+		configuration: 'PetitParser'
+		with: [ spec versionString: #stable;
+				repository: 'http://smalltalkhub.com/mc/JanKurs/PetitParser/main' ]
